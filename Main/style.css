@@ -91,6 +91,7 @@
 
 .main {
   position: relative;
+  padding-top: 20px;
 }
 
 .main__container {
@@ -126,6 +127,7 @@
   line-height: 86px;
   color: #000000;
   font-style: italic;
+  font-family: 'Playfair Display';
 }
 
 .main__subtitle {
@@ -336,13 +338,15 @@
   left: -99%;
   background-color: #fff;
   width: 225px;
-  display: block;
-  font-weight: 400;
+  cursor: pointer;
+}
+
+.accessories_link{
   font-size: 16px;
   text-align: center;
   letter-spacing: 0.1em;
   line-height: 65px;
-  cursor: pointer;
+  text-decoration: none;
 }
 
 .accessories_all {
@@ -366,7 +370,6 @@
 
 .travel_container {
   max-width: 1400px;
-  display: flex;
 }
 
 .travel_title {
@@ -398,11 +401,15 @@
 .travel_btn {
   background-color: #fff;
   width: 225px;
+  cursor: pointer;
+}
+
+.travel_link{
   font-size: 16px;
   text-align: center;
   letter-spacing: 0.1em;
   line-height: 65px;
-  cursor: pointer;
+  text-decoration: none;
 }
 
 .travel_bg {
@@ -426,24 +433,68 @@
 /* stars */
 
 .stars {
+  padding-top: 570px;
   position: relative;
-  padding: 500px 0;
+  margin: 0 auto;
+  width: 1500px;
 }
 
-.stars_container{
-  
+.stars_title {
+  font-family: "Playfair Display";
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 50px;
+  letter-spacing: 0.01em;
+  color: #000000;
+  padding-bottom: 80px;
 }
 
-.stars_container_item {
+.stars_container {
   display: flex;
+  justify-content: space-around;
 }
 
-/* .stars_text {
+.stars_bg{
+  position: absolute;
+  top: 26%;
+  left: 16%;
+  z-index: 1;
+}
+
+.star_text {
+  width: 350px;
   font-family: "Montserrat";
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.01em;
-} */
+  color: #000000;
+}
+
+.star_text:last-of-type{
+  width: 330px;
+  font-family: "Montserrat";
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #000000;
+  padding-top: 60px;
+}
+
+.stars_container_btn {
+  padding: 3% 50% 8% 50%;
+}
+
+.stars_btn {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
+  width: 225px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  line-height: 65px;
+  cursor: pointer;
+}
 
 /* footer */
 

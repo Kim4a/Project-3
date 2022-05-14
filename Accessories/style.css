@@ -10,7 +10,8 @@
   -header
   -accessories
   -cards
-  -images
+  -new
+  -classic
   -happy
   */
 
@@ -234,91 +235,239 @@
   line-height: 24px;
 }
 
-/* items */
+/* new */
 
-.images {
-  position: relative;
-  padding: 60px 150px;
-}
-
-.image_container_item {
-  z-index: 1;
-  margin-bottom: 80px;
-}
-
-.image_container_item img {
-  width: 100%;
+.new {
+  padding-top: 83px;
+  width: 1583px;
   margin: 0 auto;
+  position: relative;
 }
 
-.image_container_title {
+.new_image {
+  box-sizing: border-box;
+  object-fit: cover;
+  max-width: 100%;
+  z-index: 1;
+}
+
+.new_container_title {
   position: absolute;
-  top: 13%;
-  left: 67%;
   z-index: 2;
-  width: 513px;
-  height: 214px;
+  top: 40%;
+  right: 0;
   background: #ffffff;
+  width: 383px;
+  height: 130px;
+  padding: 30px;
 }
 
-.image_title {
+.new_title {
   font-family: "Playfair Display";
-  font-weight: 400;
-  font-size: 64px;
+  font-size: 54px;
+  font-weight: 300;
+  line-height: 35px;
   letter-spacing: 0.01em;
   color: #000000;
-  text-align: left;
 }
 
-.second {
-  position: absolute;
-  top: 47%;
-  left: 67%;
-  z-index: 2;
-  width: 513px;
-  height: 214px;
-  background: #ffffff;
-}
-
-.image_subtitle {
+.new_subtitle {
   font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
   font-size: 29px;
+  line-height: 15px;
   letter-spacing: 0.01em;
   color: #b4957c;
+  padding: 43px 0px;
+}
+
+/* classic */
+
+.classic {
+  padding-top: 83px;
+  width: 1583px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.classic_image {
+  max-width: 100%;
+  z-index: 1;
+}
+
+.classic_title {
+  font-family: "Playfair Display";
+  font-size: 54px;
+  font-weight: 300;
+  line-height: 35px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.classic_container_title {
+  position: absolute;
+  z-index: 2;
+  top: 40%;
+  right: 0;
+  background: #ffffff;
+  width: 383px;
+  height: 130px;
+  padding: 30px;
+}
+
+.classic_subtitle {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 15px;
+  letter-spacing: 0.01em;
+  color: #252525;
+  opacity: 80%;
+  padding: 48px 0px;
 }
 
 /* happy */
 
-.happy {
-  position: relative;
+.happy_container {
+  padding: 100px 0 185px 0;
+  width: 1583px;
+  margin: 0 auto;
   display: flex;
-
+  justify-content: space-between;
+  align-items: center;
 }
 
-.happy_cpntainer_item img {
+.happy_container_center {
+  /* width: 600px; */
+  text-align: center;
+}
+
+.center_text {
+  font-family: "Playfair Display";
+  list-style: none;
+  font-weight: 400;
+  font-size: 47px;
+  line-height: 1px;
+  letter-spacing: 0.01em;
+  height: 70px;
+}
+
+.center_text:last-of-type{
+  font-style: italic;
+  font-weight: 900;
+  font-size: 67px;
+  color: #b00000;
+}
+
+.happy_container_diamonds {
+  position: relative;
+}
+
+.happy_diamonds_image {
   z-index: 1;
 }
 
-.happy_container_title {
+.diamonds_container_text {
   position: absolute;
-  top: 67%;
-  left: 20%;
-  z-index: 2;
-  width: 198px;
-  height: 167px;
+  bottom: 0;
+  right: -1px;
+  width: 200px;
+  height: 160px;
   background: #ffffff;
+  z-index: 2;
 }
 
-.happy_title {
-  position: absolute;
-  left: 12%;
-  top: 30%;
+.diamonds_text {
   font-family: "Playfair Display";
   font-weight: 400;
-  font-size: 30px;
+  font-size: 32px;
   letter-spacing: 0.01em;
-  color: #000000;
+  padding: 40px 0px 30px 20px;
+}
+
+.happy_container_values {
+  position: relative;
+}
+
+.happy_values_image {
+  z-index: 1;
+}
+
+.values_text {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: 0.01em;
+  padding: 40px 40px 30px 20px;
+}
+
+.values_container_text {
+  position: absolute;
+  bottom: 0;
+  left: -1px;
+  z-index: 2;
+  background: #ffffff;
+  width: 200px;
+  height: 160px;
 }
 
 /* footer */
 
+.footer_container {
+  background: #e2e1e1;
+  height: 450px;
+  padding-top: 30px;
+}
+
+.footer_container_item {
+  background: #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+  height: 217px;
+}
+
+.footer_container_icon {
+  align-self: center;
+  padding-right: 210px;
+}
+
+.footer_icon {
+  width: 40px;
+  margin-right: 40px;
+}
+
+.footer_icon:last-of-type {
+  width: 20px;
+  margin-right: 0px;
+}
+
+.footer_title {
+  padding-left: 170px;
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-size: 270px;
+  color: #e2e1e1;
+  align-self: center;
+}
+
+.footer_list {
+  display: flex;
+  justify-content: center;
+  padding-top: 45px;
+}
+
+.footer_list_item {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.footer_list_item:last-of-type {
+  margin-right: 0px;
+}
+
+.footer_container_subtext {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
