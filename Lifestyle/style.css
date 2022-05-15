@@ -305,19 +305,19 @@
 /* video_container */
 
 .video_container {
+  position: relative;
+  width: 1530px;
+  margin: 0 auto;
   padding-top: 185px;
   padding-bottom: 200px;
-  margin: 0 auto;
-  width: 1250px;
-  position: relative;
 }
 
-.vedeo_bg {
+.video_bg {
   position: absolute;
-  width: 40%;
+  width: 35%;
   height: auto;
-  left: 61%;
-  top: 30%;
+  left: 66%;
+  top: 28%;
 }
 
 .video_title {
@@ -385,20 +385,16 @@
 .pink_text:nth-child(1) {
   width: 230px;
   height: 120px;
-  padding-right: 0px;
-  /* margin: 0 auto; */
 }
 
 .pink_text:nth-child(2) {
   width: 370px;
   height: 120px;
-  /* margin: 0 auto; */
 }
 
 .pink_text:nth-child(3) {
   width: 230px;
   height: 120px;
-  /* margin: 0 auto; */
 }
 
 /* footer */

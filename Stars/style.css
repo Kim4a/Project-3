@@ -3,7 +3,13 @@
   padding: 0;
 }
 
-/* header */
+/* header 
+-stars
+-news
+-actor
+-stars_news
+-footer
+*/
 
 .header {
   width: 100%;
@@ -123,15 +129,15 @@
   padding-left: 40px;
 }
 
-/* johnny_container */
+/* actor */
 
-.johnny_container {
+.actor {
   width: 1400px;
   margin: 0 auto;
   position: relative;
 }
 
-.grey_background {
+.actor_bg {
   margin: 0 auto;
   width: 1400px;
   height: 480px;
@@ -139,7 +145,7 @@
   z-index: 1;
 }
 
-.johnny_img {
+.johnny_image {
   position: absolute;
   z-index: 2;
   object-fit: cover;
@@ -149,7 +155,7 @@
   left: 5%;
 }
 
-.johnny_container h2 {
+.actor_text {
   width: 450px;
   position: absolute;
   right: 5%;
